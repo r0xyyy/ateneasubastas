@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Atenea Subastas - Búsqueda</title>
+	<link rel="icon" href="../logopng.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	
+<div class="navbar">
+  <a> <img src="../logopng.png" class="navlogo izq" alt="Logo"> </a>
+  <a class="izq" href="../index.html"><i class="fa fa-fw fa-home"></i> Menu principal</a>
+  <a href="../formulario/Formulario.html" class="izq active"><i class="fa fa-fw fa-search"></i> Búsqueda</a>
+  <a href="../catycart/filter/catalogo.html" class="izq"><i class="fa fa-book"></i> Catálogo</a>
+  <a href="../mapa/lugares.html" class="izq"><i class="fa fa-map-marker" aria-hidden="true"></i> Mapa</a>
+  <a href="../venta/Venta.html" class="izq"><i class="fa fa-balance-scale" aria-hidden="true"></i> Venta</a>
+ 
+  <a href="../login/login.html" class="der"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+	
+	
+	<table border="0" width="50%" id="table1" cellpadding="15" >
+	<tr>		<td width="50%">
+		
+			<form action="" method="post" onSumbit="alert('El formulario ha sido enviado');">
+		<h2 style="text-align: center"> Contáctanos </h2>
+		 <label for="nombre">Nombre:<input max-length="100" size="25" name="nombre"></label> <br>
+		<label for="apellidos">Apellidos:<input max-length="100" size="25" name="apellidos"></label> <br>
+		<label for="mail">Correo electrónico: <input max-length="100" size="25" name="mail"></label><br>
+		<label for="mensaje">Mensaje: <input max-length="1000" size="25" height="50" style="width:300px; height: 200px;" name="mensaje" rows="10"></label><br><br>
+				
+				
+				
+				<input type="submit" style="border: 0; border-bottom: 1px solid red; margin-top: -30px !important;" value="Enviar" onClick="alert('El mensaje ha sido comunicado. Espere una respuesta entre 24 y 48h laborales.');">
+				<br>
+				<input type="reset" value="Empezar de nuevo" style="color:#A7A7A7; border: 0;;">
+		</form>
+		<p></p>
+		 </td>	</tr>
+							
+	</table>
+</body>
+</html>

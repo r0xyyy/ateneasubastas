@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+body{
+	margin: 0 0 0 0;
+
+	font-family: 'Rubik', sans-serif;
+	
+	font-weight: '0, 800';
+	
+	
+	
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #7E8AA2;
+  overflow: auto;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	
+}
+.izq {
+  margin-top: 10px;
+	margin-bottom: 5px;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: #E3E3E3;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.der{
+	  margin-top: 10px;
+	margin-bottom: 5px;
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: #E3E3E3;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: #0A111F;
+}
+
+.active {
+  background-color: #C73226;
+}
+.navlogo{
+	margin-top:3px;
+	width: 2.5%;
+	position: relative;
+	top: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+.margenes{
+	margin-right: 30px !important;
+	border: 1px solid darkgrey;
+	
+	
+}
+
+input{
+		outline: none;
+	border: 0.5px solid lightgrey;
+	color: #fff;
+	border-bottom: solid 1px #ce1d61;
+	padding: 0.5px;
+	font-size: 18px;}
+
+input:button{
+	color:fff;
+}
+.blanco{
+	color: #fff !important;
+}

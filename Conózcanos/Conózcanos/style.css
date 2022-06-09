@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #E3E3E3;
+	font-family: 'Rubik', sans-serif;
+	margin: 0 0 0 0 !important;
+	max-width: 100% !important;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #7E8AA2;
+  overflow: auto;
+	margin: 0 0 0 0;
+	
+}
+.izq {
+  margin-top: 10px;
+	margin-bottom: 5px;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: #E3E3E3;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.der{
+	  margin-top: 10px;
+	margin-bottom: 5px;
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: #E3E3E3;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: #0A111F;
+}
+
+.active {
+  background-color: #C73226;
+}
+.navlogo{
+	margin-top:3px;
+	width: 2.5%;
+	position: relative;
+	top: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+p{
+	background:#263248; 
+	color:white; 
+	padding:40px; 
+	width:"1024"; 
+	height:"180"; 
+	position: "absolute";
+	text-align: justify;
+	text-align: center;
+	margin: -10px 0 0 0;
+	border-bottom: 2px solid #161d2b;
+	border-top: 2px solid #161d2b;
+}
+
+h1{
+	text-align:center;
+}
+
+.victor{
+	width: 30%;
+	float: right;
+	margin:0px 55px 0px 0px; 
+	text-align:right;
+}
+
+.banner{
+	width:100%;
+	height:300px;
+	object-fit: cover;
+	object-position: center;
+	margin: 0 0 0 0 !important;
+}
+
+.container{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: #E3E3E3;
+	
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+	background: linear-gradient(to left, #263248, #161d2b)
+}
+
+.perfiles{
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align-last: center;
+	justify-content: center;
+	align-content: center;
+	margin: 20px 1%;
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+
+	
+}
+
+.perfil{
+	flex-basis: 260px;
+	padding: 20px 20px 20px 20px;
+	background-color: rgba(0,0,0,0.25);
+
+	
+}
+
+.perfil-img{
+	object-fit: cover;
+}
+.perfil .perfil-img{
+	height: 260px;
+	width: 260px;
+	border-radius: 50%;
+	filter: grayscale(100%);
+	cursor: pointer;
+	transition: 400ms;
+	
+}
+
+.perfil:hover .perfil-img{
+	filter: grayscale(0%);
+	
+}
+
+.container{
+	width: 100%;
+	
+}
+
+.nombre{
+	font-size: 16pt;
+	margin-bottom: -15px;
+}
+
+h5{
+	font-weight: lighter;	
+}
+
+a{
+	color: #929292;
+}

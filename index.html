@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Atenea Subastas - Menú principal</title>
+
+	<style>
+		.botonCabecera {width:17%; margin-left:20px; height: 40px; margin-top: 50px; font-size: 20px; margin-bottom: 50px;}
+		h1{font-size: 24pt; text-align: center}
+		p{font-size: 12pt; text-indent: 1cm; text-align: justify;}
+		body{line-height: 150%;}
+		h2{ font-size: 18pt; text-align: left}
+		.floatRight {float:right;clear:right;margin-left:20px}
+		.margen {margin-left:10px; margin-right:10px; margin-top: 50px; margin-bottom: 50px;}
+	</style>
+	<link rel="stylesheet" href="menú/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" href="logopng.png">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<script> 
+		window.onbeforeunload = function () {
+			window.scrollTo({top: 0, behavior: 'smooth'});
+}
+		
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+	</script>
+</head>
+
+
+<body>
+	<div class="sinmargen animate__animated animate__fadeIn">
+	<img src="menú/logo con letra.png" width="651" height="298" style="display:block;margin:0 auto 0 auto; margin-top:65px; border-bottom: 0px solid #0A111F; padding-bottom:20px" alt="Atenea Subastas" class="animate__animated animate__fadeIn logo"/>
+	<div class="navbar" style="margin-top:30px;">
+
+  <a href="login/login.html" class="der active animate__animated animate__backInRight"><i class="fa fa-fw fa-user"></i> Inicio de sesión </a>
+</div>
+
+
+<div class="botones">
+<button type= "Button" class= "botonCabecera animate__animated animate__zoomIn" onclick="window.location.href='catycart/filter/catalogo.html'"><b>Catálogo</b></button>
+<button type= "Button" class= "botonCabecera animate__animated animate__zoomIn" onclick="window.location.href='mapa/lugares.html'"><b>Lugares</b></button>
+
+<button type= "Button" class= "botonCabecera animate__animated animate__zoomIn" onclick="window.location.href='venta/venta.html'"><b>Venta</b></button>
+<button type= "Button" class= "botonCabecera animate__animated animate__zoomIn" onclick="window.location.href='Conózcanos/Conózcanos/Conózcanos.html'"><b>Conózcanos</b></button>
+	<button type= "Button" class= "botonCabecera animate__animated animate__zoomIn" onclick="window.location.href='contacto/contacto.html'"><b>Contacto</b></button>
+</div>
+		</div>
+<a href="catycart/cartel/cartel.html">
+<img src="menú/Próxima subasta.jpg" width="100%" style="display:block;margin:0 auto 0 auto;" class="margen brillo animate__animated animate__fadeIn" alt="Próxima subasta">
+	</a>
+
+
+
+
+	  
+	  		<div class="media" style="background:black">
+					<video width="100%" height="500px" style="object-fit: cover; text-align:center; align-content: center; position: relative; margin: 0 0 0 0; margin-top: 60px; margin-bottom: 60px; " controls class="margen" autoplay muted>
+	  <source src="menú/subasta.mp4" type="video/mp4">
+</video>
+		  	</div>
+
+<div class="container animaciones bottom">
+	<img src="menú/ani1.gif" alt="animación" width="25%" class="ani">
+	<img src="menú/ani2.gif" alt="animación" width="25%" class="ani">
+	<img src="menú/ani3.gif" alt="animación" width="25%" class="ani">
+	<img src="menú/ani4.gif" alt="animación" width="25%" class="ani">
+	
+	
+	</div>
+
+
+	<div class="copy">
+				<h4 style="font-weight: bolder">Todos los derechos reservados</h4>
+				<h4 style="font-size: 10pt">© Atenea Subastas</h4>
+	
+	</div>
+
+<button onclick="topFunction()" id="myBtn" title="Volver arriba" class="animate__animated animate__backInRight">Arriba</button>
+
+</body>
+</html>

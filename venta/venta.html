@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Atenea Subastas - Venta</title>
+	<style>
+		
+		.margenV {margin-left:10px; margin-right:10px; margin-top: 50px; margin-bottom: 50px;}
+		.margenCentro {margin-center:10px; margin-top: 50px; margin-bottom: 50px;}
+		
+	</style>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" href="../logopng.png">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+	
+	
+<div class="navbar">
+  <a> <img src="../logopng.png" class="navlogo izq" alt="Logo"> </a>
+  <a class="izq" href="../index.html"><i class="fa fa-fw fa-home"></i> Menú principal</a>
+  <a href="../formulario/Formulario.html" class="izq"><i class="fa fa-fw fa-search"></i> Búsqueda</a>
+  <a href="../catycart/filter/catalogo.html" class="izq"><i class="fa fa-book"></i> Catálogo</a>
+  <a href="../mapa/lugares.html" class="izq"><i class="fa fa-map-marker" aria-hidden="true"></i> Mapa</a>
+  <a href="../venta/Venta.html" class="izq active"><i class="fa fa-balance-scale" aria-hidden="true"></i> Venta</a>
+ 
+  <a href="../login/login.html" class="der active"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+
+
+
+	<p class="margenCentro" style="text-align:center;"><big><b>Venda sus pertenencias</b></big></p>
+	<table border="2" width="75%" id="table1" cellpadding="15" style="float:center;margin-center:10px; margin-left: 12.5%;" class="margenes">
+		<tr>		<td width="30%"> 
+			<form action="" method="post" onSumbit="alert('El formulario ha sido enviado');return true;"></form>
+				
+				<p>   ¿Qué objeto desea vender? </p>
+				                 
+
+			     
+			<p><input maxLength="100" size="25" name="nombre" id="objeto" style="color: black;"></p>
+				
+				<p>¿A qué categoría pertenece?</p>
+				<p><select name="D1">
+				<option slected name="cuadros">Cuadros</option>
+				<option name="anillos">Anillos</option>
+				<option slected name="collares">Collares</option>
+				<option slected name="vino"> Botellas de vino </option>
+				<option slected name="estatuas">Estatuas</option>
+				<option slected name="relojes">Relojes</option>
+				<option slected name="libros">Libros</option>
+				<option slected name="jarrones">Jarrones</option>
+					</select></p>
+			
+			<p>   Indique el precio de venta: </p>
+			<p><input maxLength="100" size="25" name="nombre" style="color: black;"></p>
+	<input type="submit" align="center" style="background-color:#C73226; color: white;" class="blanco" value="¡Listo!">
+				
+  <td width="10%" height="76" class="margenV">
+				<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename" style="text-align: center; color:#0A111F;">
+
+</form>
+				 
+	</tr> </td>
+
+
+</body>
+</html>

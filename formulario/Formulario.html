@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Atenea Subastas - Búsqueda</title>
+	<link rel="icon" href="../logopng.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	
+<div class="navbar">
+  <a> <img src="../logopng.png" class="navlogo izq" alt="Logo"> </a>
+  <a class="izq" href="../index.html"><i class="fa fa-fw fa-home"></i> Menú principal</a>
+  <a href="../formulario/Formulario.html" class="izq active"><i class="fa fa-fw fa-search"></i> Búsqueda</a>
+  <a href="../catycart/filter/catalogo.html" class="izq"><i class="fa fa-book"></i> Catálogo</a>
+  <a href="../mapa/lugares.html" class="izq"><i class="fa fa-map-marker" aria-hidden="true"></i> Mapa</a>
+  <a href="../venta/Venta.html" class="izq"><i class="fa fa-balance-scale" aria-hidden="true"></i> Venta</a>
+ 
+  <a href="../login/login.html" class="der"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+	
+	
+	<table border="0" width="50%" id="table1" cellpadding="15" >
+	<tr>		<td width="50%">
+		
+			<form action="" method="post" onSumbit="alert('El formulario ha sido enviado'); return true;">
+		<h2 style="text-align: center"> ¿En qué estás interesado? <br> Te ayudamos en el proceso. </h2>
+		
+		<p>Nombre: <input max-length="100" size="25" name="nombre"></p>
+		<p>Apellidos: <input max-length="100" size="25" name="apellido"></p>
+				
+				<h2 style="margin-bottom:5px">¿Qué busca?<br></h2> Comprar
+				<input type="checkbox" name="comprar"> <br> Vender
+				<input type="checkbox" checked name="vender0"> <p></p>
+		
+		Ciudad de la Casa de Subastas:
+				<select name="D1">
+				<option slected name="madrid">Madrid</option>
+				<option name="valladolid">Valladolid</option>
+				<option slected name="bilbao">Bilbao</option>
+				<option slected name="almeria">Almería</option>
+				<option slected name="alicante">Alicante</option>
+				<option slected name="tarragona">Tarragona</option>
+				<option slected name="badajoz">Badajoz</option>
+				<option slected name="lugo">Lugo</option>
+				</select>
+		<p></p>
+		Categoría:
+				<select name="D1">
+				<option slected name="cuadros">Cuadros</option>
+				<option name="anillos">Anillos</option>
+				<option slected name="collares">Collares</option>
+				<option slected name="vino"> Botellas de vino </option>
+				<option slected name="estatuas">Estatuas</option>
+				<option slected name="relojes">Relojes</option>
+				<option slected name="libros">Libros</option>
+				<option slected name="jarrones">Jarrones</option>
+				</select>
+											   <p></p>
+				Dinero pedido/ofrecido:
+				<select name="D1">
+				<option slected name="50">100-200€</option>
+				<option name="anillos">200-300€</option>
+				<option slected name="collares">300-400€</option>
+				<option slected name="vino"> 400-500€ </option>
+				<option slected name="estatuas">500-600€</option>
+				<option slected name="relojes">600-700€</option>
+				<option slected name="libros">700-800€</option>
+				<option slected name="jarrones">800-900€</option>
+				<option slected name="jarrones">900-1000€</option>
+				<option slected name="jarrones">>1000€</option>
+				</select>
+											   <p></p>
+				
+				<input type="submit" value="Enviar">
+				<br>
+				<input type="reset" value="Empezar de nuevo" style="color:#A7A7A7">
+		</form>
+		<p></p>
+				
+							
+	</table>
+</body>
+</html>

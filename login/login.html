@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Atenea Subastas - Inicio de sesión</title>
+<link rel="icon" href="../logopng.png">
+<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	 <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+	<div class="navbar">
+  <a> <img src="../logopng.png" class="navlogo izq" alt="Logo"> </a>
+  <a class="izq" href="../index.html"><i class="fa fa-fw fa-home"></i> Menú principal</a>
+  <a href="../formulario/Formulario.html" class="izq"><i class="fa fa-fw fa-search"></i> Búsqueda</a>
+  <a href="../catycart/filter/catalogo.html" class="izq"><i class="fa fa-book"></i> Catálogo</a>
+  <a href="../mapa/lugares.html" class="izq"><i class="fa fa-map-marker" aria-hidden="true"></i> Mapa</a>
+  <a href="../venta/Venta.html" class="izq"><i class="fa fa-balance-scale" aria-hidden="true"></i> Venta</a>
+ 
+  <a href="#" class="der active"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+	
+	<div class="inicio">
+		
+  <form>
+	  
+<p>  <h1 class="margentop animate__animated animate__fadeIn"> Inicio de sesión </h1> </p>
+<fieldset>
+	
+	
+		<div class="sinmargen">
+			
+	
+      <p><i class="fa-solid fa-user animate__animated animate__fadeIn"></i>
+		  <input id="username" placeholder="Nombre de usuario" type="text" class="animate__animated animate__fadeIn"></p>
+			
+
+      <p><i class="fa-solid fa-key animate__animated animate__fadeIn"></i>
+		  <input id="password" placeholder="Contraseña" type="password" class="animate__animated animate__fadeIn"></p>
+			
+      <p><input id="submit" type="submit" value="Enviar" align="center" style="button"></p>
+		</div>
+		
+	  
+	
+    </fieldset>
+		<h5 class="problema animate__animated animate__fadeInUp"> ¿Tienes problemas para iniciar sesión? <br> <a onclick="alert('Contacta con los administradores del sitio web para recuperar tu contraseña.')">Haz clic aquí.</a> </h5>
+		<br>
+  </form>
+</div>    
+	
+	<script src="loginjs.js"></script>
+</body>
+</html>
